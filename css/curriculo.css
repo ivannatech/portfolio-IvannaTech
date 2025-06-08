@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #610b4d;
+}
+
+header .title {
+  font-size: 1.2em;
+  color: #666;
+}
+
+header a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #2980b9;
+  text-decoration: none;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  color: #610b4d;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #7a1763;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.job {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.contact p {
+  margin-top: 5px;
+}
+
+
+/* Tema escuro */
+body.dark-mode {
+  background: #1e1e1e;
+  color: #eee;
+}
+
+body.dark-mode .container {
+  background: #2b2b2b;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+body.dark-mode header h1,
+body.dark-mode section h2 {
+  color: #e5baff;
+}
+
+body.dark-mode header .title {
+  color: #aaa;
+}
+
+body.dark-mode a {
+  color: #80caff;
+}
+
+body.dark-mode section h2 {
+  border-bottom-color: #9c42aa;
+}
+
+.toggle-theme {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #610b4d;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  z-index: 999;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.toggle-theme:hover {
+  background: #7a1763;
+}
