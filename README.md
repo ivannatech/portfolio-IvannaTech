@@ -39,6 +39,7 @@ Sou Ivanna Almeida, desenvolvedora em retomada na área de tecnologia, com pós-
 
 ## 🔗 Links Importantes
 
+- [Portfólio Online](https://ivannatech.github.io/portfolio-IvannaTech/) 
 - [GitHub - Ivanna Tech](https://github.com/ivannatech)
 - [LinkedIn - Ivanna Almeida](https://www.linkedin.com/in/ivanna-almeida/)
 
