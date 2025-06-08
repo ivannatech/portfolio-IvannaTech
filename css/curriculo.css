@@ -99,7 +99,7 @@ body.dark-mode section h2 {
 
 .toggle-theme {
   position: fixed;
-  top: 20px;
+  top: 10px;
   right: 20px;
   background: #610b4d;
   color: white;
